@@ -1,0 +1,52 @@
+body {
+    color: black;
+    background-color: #e4f7ef;
+    font-family:'Comic Sans MS', cursive, sans-serif;
+    padding: 40px;
+   
+}
+h1 {
+    /*text-align: center; */
+    margin-top: 50%;
+    background-color: #69d7ba;  /* cor do retângulo */
+    padding: 3% 42%;         
+    display: block; text-align: center;      /* Fundo atras do texto */
+    border-radius: 10px;        /* cantos arredondados */
+    margin-top: -6px;
+    color: white;
+    font-size: 3vw;
+}
+ 
+h2 { 
+    text-align: center;
+    margin-top: 40px;
+    font-size: 1.8rem;
+    
+}
+
+p {
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+
+}
+
+.bloco {
+    display: flex;
+    align-items: center; 
+    gap: 20px; /* espaço entre imagem e texto */
+  }
+  
+  .imagem {
+    width: 40vw; /* você pode ajustar como quiser */
+    height: auto;
+    border-radius: 10px;
+}
+
+.linha-texto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    
+  }
+
+ 
