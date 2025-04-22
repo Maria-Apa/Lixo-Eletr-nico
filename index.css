@@ -3,8 +3,8 @@ body {
     background-color: #e4f7ef;
     font-family:'Comic Sans MS', cursive, sans-serif;
     padding: 40px;
-   
 }
+
 h1 {
     /*text-align: center; */
     margin-top: 50%;
@@ -49,3 +49,36 @@ p {
     
   }
  
+  @media (max-width: 450px) {
+    body {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 6vw;
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    .bloco {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .imagem {
+        width: 100%;
+    }
+
+    .linha-texto {
+        grid-template-columns: 1fr; /* uma coluna apenas */
+    }
+
+
+  }
