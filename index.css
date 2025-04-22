@@ -1,41 +1,43 @@
 body {
     color: black;
     background-color: #e4f7ef;
-    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-family:'Comic Sans MS', cursive, sans-serif;
     padding: 40px;
+   
 }
-
 h1 {
-    background-color: #69d7ba;
-    padding: 3% 10%;
-    text-align: center;
-    border-radius: 10px;
+    /*text-align: center; */
+    margin-top: 50%;
+    background-color: #69d7ba;  /* cor do retângulo */
+    padding: 3% 42%;         
+    display: block; text-align: center;      /* Fundo atras do texto */
+    border-radius: 10px;        /* cantos arredondados */
     margin-top: -6px;
     color: white;
     font-size: 3vw;
 }
-
-h2 {
+ 
+h2 { 
     text-align: center;
     margin-top: 40px;
     font-size: 1.8rem;
+    
 }
 
 p {
     margin-bottom: 15px;
     font-size: 1.3rem;
+
 }
 
 .bloco {
     display: flex;
-    align-items: center;
-    gap: 20px;
-    flex-wrap: wrap;
-}
-
-.imagem {
-    width: 40vw;
-    min-width: 250px;
+    align-items: center; 
+    gap: 20px; /* espaço entre imagem e texto */
+  }
+  
+  .imagem {
+    width: 40vw; /* você pode ajustar como quiser */
     height: auto;
     border-radius: 10px;
 }
@@ -44,37 +46,7 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
-}
+    
+  }
 
-/* 📱 Estilo para dispositivos com largura até 768px (celulares e tablets) */
-@media (max-width: 768px) {
-    body {
-        padding: 20px;
-    }
-
-    h1 {
-        font-size: 6vw;
-        padding: 20px;
-    }
-
-    h2 {
-        font-size: 1.5rem;
-    }
-
-    p {
-        font-size: 1rem;
-    }
-
-    .bloco {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .imagem {
-        width: 100%;
-    }
-
-    .linha-texto {
-        grid-template-columns: 1fr;
-    }
-}
+ 
